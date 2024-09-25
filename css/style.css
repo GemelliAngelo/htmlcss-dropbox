@@ -51,6 +51,10 @@ button[type="button"] {
   color: #0061ff;
 }
 
+h3 {
+  font-size: 1.5rem;
+}
+
 /* HEADER */
 
 header {
@@ -103,7 +107,7 @@ ul {
   padding: 30px 0;
 }
 
-.small-column {
+.hero .small-column {
   width: 30%;
   padding: 20px 0;
 }
@@ -112,7 +116,7 @@ ul {
   margin-bottom: 30px;
 }
 
-.big-column {
+.hero .big-column {
   width: 70%;
   padding: 20px 0;
 }
@@ -122,10 +126,11 @@ ul {
 .subscription-section {
   min-height: 1000px;
   width: 100%;
+  padding: 50px;
 }
 
 .subscription-section > .container {
-  padding: 150px 80px 20px;
+  padding: 100px 80px 50px;
 }
 
 .subscription-title {
@@ -140,7 +145,8 @@ input[name="payment-option"] {
 .plan-card-container {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 53px;
+  flex-wrap: wrap;
 }
 
 .plan-card {
@@ -164,10 +170,6 @@ input[name="payment-option"] {
   border-bottom: 1px solid #acacac;
 }
 
-.plan-title {
-  font-size: 1.5rem;
-}
-
 .plan-description .plan-list {
   padding: 25px 0;
 }
@@ -182,4 +184,53 @@ input[name="payment-option"] {
 
 .plan-bonus {
   padding: 70px 20px;
+}
+
+.big-plan-card {
+  border: 1px solid #acacac;
+  width: 100%;
+}
+
+.big-plan-card button {
+  width: fit-content;
+  position: relative;
+  bottom: 80px;
+  left: 870px;
+  margin: 0;
+}
+
+/* PARTNER */
+
+.partner {
+  padding: 50px 0;
+}
+
+.partner > .container {
+  padding: 50px 10px;
+}
+
+.column-container {
+  display: flex;
+  padding: 0 20px;
+}
+
+.partner .big-column {
+  width: 60%;
+  padding: 50px;
+}
+
+.partner .small-column {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 40%;
+  padding: 50px 100px 50px 30px;
+}
+
+.partner .small-column button {
+  background-color: white;
+  color: inherit;
+  border: 1px solid black;
 }
