@@ -1,7 +1,44 @@
 /* RESET */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* UTILS */
+
+.container {
+  margin: 0 auto;
+  width: 1500px;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  background-color: grey;
+  justify-content: space-between;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.link-list {
+  list-style-type: none;
+}
+
+.list-item {
+  display: inline-block;
+  margin: 0 10px;
 }
