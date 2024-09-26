@@ -26,6 +26,7 @@ img {
 
 svg {
   fill: currentColor;
+  color: white;
   max-width: 100%;
 }
 
@@ -267,10 +268,17 @@ label {
 }
 
 .team-column {
+  background-color: grey;
   width: calc(100vw / 3);
+  height: calc(100vw / 3);
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.tea-column-item {
+.team-column-item {
+  /* display: flex;
+  align-items: center; */
+  border: 1px solid black;
   width: 50%;
   height: 50%;
 }
