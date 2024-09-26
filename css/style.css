@@ -1,10 +1,5 @@
 /* RESET */
 
-path {
-  width: 100%;
-  height: ;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -275,18 +270,33 @@ label {
 
 .team-column-container {
   display: flex;
+  padding: 100px 0 0;
 }
 
 .team-column {
-  background-color: grey;
   width: calc(100vw / 3);
   height: calc(100vw / 3);
   display: flex;
   flex-wrap: wrap;
 }
 
+#uf {
+  background-color: #0093ce;
+}
+
+#asu {
+  background-color: #61082b;
+}
+
+#designit {
+  background-color: #a2d39b;
+}
+
+#topps {
+  background-color: #ff1c1c;
+}
+
 .team-column-item {
-  border: 1px solid black;
   width: 50%;
   height: 50%;
   padding: 70px;
@@ -294,9 +304,20 @@ label {
 
 .paragraph {
   flex-direction: column;
+  gap: 50px;
+}
+
+.paragraph .team-column-item {
+  padding: 0 30px;
+  height: 30%;
+}
+
+.paragraph .team-column-item svg {
+  color: black;
 }
 
 .team-column-big-item {
+  padding: 0 30px;
 }
 
 .business-plan {
