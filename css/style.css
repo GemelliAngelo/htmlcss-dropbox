@@ -260,3 +260,12 @@ label {
 .business-team-section .container {
   line-height: 80px;
 }
+
+.team-column {
+  width: calc(100vw / 3);
+}
+
+.tea-column-item {
+  width: 50%;
+  height: 50%;
+}
