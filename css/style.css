@@ -1,5 +1,10 @@
 /* RESET */
 
+path {
+  width: 100%;
+  height: ;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,7 +32,8 @@ img {
 svg {
   fill: currentColor;
   color: white;
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 /* UTILS */
@@ -267,6 +273,10 @@ label {
   line-height: 80px;
 }
 
+.team-column-container {
+  display: flex;
+}
+
 .team-column {
   background-color: grey;
   width: calc(100vw / 3);
@@ -276,9 +286,21 @@ label {
 }
 
 .team-column-item {
-  /* display: flex;
-  align-items: center; */
   border: 1px solid black;
   width: 50%;
   height: 50%;
+  padding: 70px;
+}
+
+.paragraph {
+  flex-direction: column;
+}
+
+.team-column-big-item {
+}
+
+.business-plan {
+  background-color: #b4d0e7;
+  text-align: center;
+  padding: 100px 0;
 }
