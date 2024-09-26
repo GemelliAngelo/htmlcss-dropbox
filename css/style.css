@@ -51,6 +51,11 @@ button[type="button"] {
   color: #0061ff;
 }
 
+h2 {
+  font-size: 2.5rem;
+  margin: 30px 0;
+}
+
 h3 {
   font-size: 1.5rem;
 }
@@ -129,11 +134,6 @@ ul {
   width: 100%;
   margin: 100px 0 0;
   padding: 100px 0;
-}
-
-.subscription-title {
-  font-size: 2.5rem;
-  margin: 20px 0;
 }
 
 input[name="payment-option"] {
@@ -227,12 +227,8 @@ label {
 
 /* DROPBOX BUSINESS */
 
-.dropbox-business h2 {
-  font-size: 2.5rem;
-}
-
-.business-title {
-  margin: 40px 0;
+.dropbox-business {
+  margin: 30px 0;
 }
 
 .card-container {
@@ -252,4 +248,15 @@ label {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+/* BUSINESS TEAM */
+
+.business-team-section {
+  margin: 30px 0;
+  padding: 200px 0 90px;
+}
+
+.business-team-section .container {
+  line-height: 80px;
 }
