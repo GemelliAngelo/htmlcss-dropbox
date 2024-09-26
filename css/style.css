@@ -38,8 +38,8 @@ button[type="button"] {
   padding: 10px 20px;
   border: none;
   color: white;
-  font-weight: medium;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 #blue-link {
@@ -192,14 +192,6 @@ label {
 .big-plan-card {
   border: 1px solid #acacac;
   width: 100%;
-}
-
-.big-plan-card button {
-  width: fit-content;
-  position: relative;
-  bottom: 80px;
-  left: 710px;
-  margin: 0;
 }
 
 /* PARTNER */
