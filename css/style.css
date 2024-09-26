@@ -24,6 +24,11 @@ img {
   max-width: 100%;
 }
 
+svg {
+  fill: currentColor;
+  max-width: 100%;
+}
+
 /* UTILS */
 
 .container {
