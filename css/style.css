@@ -42,7 +42,7 @@ svg {
 
 button[type="button"] {
   background-color: #0061ff;
-  padding: 10px 20px;
+  padding: 15px 20px;
   border: none;
   color: white;
   font-size: 1rem;
@@ -280,22 +280,6 @@ label {
   flex-wrap: wrap;
 }
 
-#uf {
-  background-color: #0093ce;
-}
-
-#asu {
-  background-color: #61082b;
-}
-
-#designit {
-  background-color: #a2d39b;
-}
-
-#topps {
-  background-color: #ff1c1c;
-}
-
 .team-column-item {
   width: 50%;
   height: 50%;
@@ -305,6 +289,7 @@ label {
 .paragraph {
   flex-direction: column;
   gap: 50px;
+  padding: 0 20px;
 }
 
 .paragraph .team-column-item {
@@ -320,8 +305,67 @@ label {
   padding: 0 30px;
 }
 
+/* COLOR */
+
+#uf {
+  background-color: #0093ce;
+}
+
+#asu {
+  background-color: #61082b;
+}
+
+#designit {
+  background-color: #a2d39b;
+  border: 15px solid #d1e9cd;
+}
+
+#topps {
+  background-color: #ff1c1c;
+}
+
+#wbr {
+  background-color: #d5001f;
+}
+
+#heartcorp {
+  background-color: #b4d0e7;
+}
+
+#lonely-planet {
+  background-color: #0d2481;
+}
+
+#clear-channel {
+  background-color: #ffd830;
+}
+
+/* BUSINESS PLAN */
+
 .business-plan {
   background-color: #b4d0e7;
-  text-align: center;
   padding: 100px 0;
+}
+
+.business-plan .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.business-plan .container h2 {
+  width: 50%;
+  color: #61082b;
+}
+
+.business-plan .container button {
+  width: 30%;
+  color: black;
+  background-color: white;
+}
+
+/* FAQ */
+
+.question p {
+  font-weight: 700;
 }
