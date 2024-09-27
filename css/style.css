@@ -198,8 +198,13 @@ label {
   padding: 25px 0;
 }
 
+.fa-ul {
+  margin-left: 20px;
+}
+
 .plan-list-item {
   margin: 1.5rem 0;
+  font-size: 0.9rem;
 }
 
 .plan-description > button {
